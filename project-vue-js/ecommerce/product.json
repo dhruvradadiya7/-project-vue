@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "Adobe Acrobat Pro",
+        "photo": "AdobeAcrobat.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 50.00
+        },
+        "type": "tools"
+    },
+    {
+        "id": 2,
+        "name": "Corel Draw",
+        "photo": "corelDraw.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 39.99
+        },
+        "type": "creativity"
+    },
+    {
+        "id": 3,
+        "name": "Filmora",
+        "photo": "filmora.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "creativity"
+    },
+    {
+        "id": 4,
+        "name": "Maya",
+        "photo": "maya.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 1999.99
+        },
+        "type": "creativity"
+    },
+    {
+        "id": 5,
+        "name": "McAfee",
+        "photo": "McAfee.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "security"
+    },
+    {
+        "id": 6,
+        "name": "Nord VPN",
+        "photo": "NordVPN.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "security"
+    },
+    {
+        "id": 7,
+        "name": "Norton",
+        "photo": "Norton.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 24.99
+        },
+        "type": "security"
+    },
+    {
+        "id": 8,
+        "name": "Office PRO",
+        "photo": "officePro.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "tools"
+    },
+    {
+        "id": 9,
+        "name": "Office Student",
+        "photo": "officestu.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "tools"
+    },
+    {
+        "id": 10,
+        "name": "Parellel Desktop",
+        "photo": "Parellel.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 99.99
+        },
+        "type": "tools"
+    },
+    {
+        "id": 11,
+        "name": "PDF PRO 3",
+        "photo": "pdfPro.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 19.99
+        },
+        "type" : "Creativity"
+    },
+    {
+        "id": 12,
+        "name": "VMWEAR PRO",
+        "photo": "vmwear.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "tools"
+    },
+    {
+        "id": 13,
+        "name": "Visual Studio",
+        "photo": "vsstudio.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "tools"
+    },
+    {
+        "id": 14,
+        "name": "Windows 10",
+        "photo": "windows10.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "os"
+    },
+    {
+        "id": 15,
+        "name": "Windows 11",
+        "photo": "windows11.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "Creativity"
+    },
+    {
+        "id": 16,
+        "name": "ESET Security",
+        "photo": "east.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "security"
+    },
+    {
+        "id": 17,
+        "name": "Adobe Reader",
+        "photo": "adobe_reader.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 25.00
+        },
+        "type": "tools"
+    },
+    {
+        "id": 18,
+        "name": "Autocad",
+        "photo": "autocad.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "creativity"
+    },
+    {
+        "id": 19,
+        "name": "Windows 7",
+        "photo": "win7.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 100.00
+        },
+        "type": "os"
+    },
+    {
+        "id": 20,
+        "name": "Windows Server",
+        "photo": "winserv.jpg",
+        "price": {
+            "USD": 15.00,
+            "CAD": 30.00
+        },
+        "type": "os"
+    }
+]
