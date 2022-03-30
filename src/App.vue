@@ -56,28 +56,53 @@
       </div>
     </div>
   </header>
-  <router-view :inventory="inventory" />
-  <SideBar v-if="showSideBar" :toggle="toggleSideBar" />
+  <router-view
+  :inventory = "inventory"
+  :addToCart = "addToCart"
+  />
+<Sidebar
+  v-if="showSideBar"
+  :toggle="toggleSideBar"
+  :cart = "cart"
+  :inventory = "inventory"
+  :remove = "removeItem"
+  />
 </template>
 <script>
-import product from "@/product.json";
-import SideBar from "@/components/SideBar.vue";
+import product from '@/product.json'
+import Sidebar from '@/components/SideBar.vue'
 export default {
   components: {
-    SideBar,
+    Sidebar
   },
-  data() {
+  data () {
     return {
-      inventory: product,
       showSideBar: false,
-    };
+      inventory: product,
+      cart: {}
+    }
   },
   methods: {
-    toggleSideBar() {
-      this.showSideBar = !this.showSideBar;
+    toggleSideBar () {
+      this.showSideBar = !this.showSideBar
     },
+    addToCart (name, index) {
+      if (!this.cart[name]) this.cart[name] = 0
+      this.cart[name] += this.inventory[index].quantity
+      console.log(this.cart[name])
+    },
+    removeItem (name) {
+      delete this.cart[name]
+    }
   },
-};
+  computed: {
+    totalQuantity () {
+      return Object.values(this.cart).reduce((acc, curr) => {
+        return acc + curr
+      }, 0)
+    }
+  }
+}
 </script>
 <style>
 #app {
