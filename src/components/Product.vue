@@ -1,12 +1,12 @@
 <template>
-  <section class="py-5">
+    <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div v-for="(product, i) in inventory" :key="product.id" class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
 
-                            <img class="card-img-top" :src="'/img/450/'+product.photo"  alt="..." />
+                            <img class="card-img-top" :src={imgURL}  alt="..." />
                             <!-- Product details-->
                             
                             <div class="card-body p-4">
@@ -30,8 +30,3 @@
             </div>
         </section>
 </template>
-<script>
-export default {
-  props: ['inventory']
-}
-</script>
